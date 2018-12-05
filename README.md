@@ -19,6 +19,10 @@ It aims to be simple, so the user is not distracted from whats important -
 
 ![New Task Screen](docs/NewTaskScreen.png?raw=true "New Task Screen")
 
+### Task View Screen
+
+![Task View Screen](docs/TaskViewScreen.png?raw=true "Task View Screen")
+
 ## Tasks
 
 They are why the user is here.

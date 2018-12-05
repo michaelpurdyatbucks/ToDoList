@@ -1,525 +1,301 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
--<mxGraphModel shadow="0" math="0" pageHeight="1100" pageWidth="850" pageScale="1" page="1" fold="1" arrows="1" connect="1" tooltips="1" guides="1" gridSize="10" dy="474" dx="994" grid="1">
-
-
--<root>
-
-<mxCell id="0"/>
-
-<mxCell id="1" parent="0"/>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-1" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;" value="">
-
-<mxGeometry height="80" width="230" y="227.5" x="325" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-2" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="Grocery Store<br style="font-size: 18px;">">
-
-<mxGeometry height="20" width="170" y="247.5" x="375" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-3" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=23;" value="X">
-
-<mxGeometry height="30" width="30" y="237.5" x="335" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-4" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="<div align="left"><font style="font-size: 10px">Today</font><br style="font-size: 10px"></div>">
-
-<mxGeometry height="20" width="40" y="277.5" x="335" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-5" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="<font style="font-size: 12px">Be sure to remember to ge...</font><br style="font-size: 12px">">
-
-<mxGeometry height="20" width="160" y="277.5" x="385" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-6" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;" value="">
-
-<mxGeometry height="80" width="230" y="307.5" x="325" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-7" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="Call Mom<br style="font-size: 18px">">
-
-<mxGeometry height="20" width="170" y="327.5" x="375" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-8" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="">
-
-<mxGeometry height="30" width="30" y="317.5" x="335" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-10" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="<font style="font-size: 12px">It's her birthday</font><br style="font-size: 12px">">
-
-<mxGeometry height="20" width="140" y="357.5" x="385" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-11" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" value="">
-
-<mxGeometry height="80" width="230" y="387.5" x="325" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-12" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="Pay Water Bill<br style="font-size: 18px">">
-
-<mxGeometry height="20" width="170" y="407.5" x="375" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-13" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="">
-
-<mxGeometry height="30" width="30" y="397.5" x="335" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-16" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;" value="">
-
-<mxGeometry height="30" width="230" y="467.5" x="325" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-17" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="Grocery Store<br style="font-size: 18px;">">
-
-<mxGeometry height="20" width="170" y="487.5" x="375" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-18" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="">
-
-<mxGeometry height="20" width="30" y="477.5" x="335" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-22" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" value="">
-
-<mxGeometry height="60" width="230" y="497.5" x="325" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-23" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;" value="New Task<br>">
-
-<mxGeometry height="40" width="190" y="507.5" x="345" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-24" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="<div align="left"><font size="1">9 Dec</font></div>">
-
-<mxGeometry height="20" width="40" y="437.5" x="335" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-28" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#f8cecc;strokeColor=#b85450;" value="" source="Bm2-PUY5up5VaTDxlSB6-47" target="Bm2-PUY5up5VaTDxlSB6-23" edge="1">
-
-
--<mxGeometry height="50" width="50" as="geometry" relative="1">
-
-<mxPoint y="592.5" x="615" as="sourcePoint"/>
-
-<mxPoint y="582.5" x="375" as="targetPoint"/>
-
-</mxGeometry>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-29" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#f8cecc;strokeColor=#b85450;" value="" target="Bm2-PUY5up5VaTDxlSB6-3" edge="1">
-
-
--<mxGeometry height="50" width="50" as="geometry" relative="1">
-
-<mxPoint y="262.5" x="245" as="sourcePoint"/>
-
-<mxPoint y="257.5" x="215" as="targetPoint"/>
-
-</mxGeometry>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-30" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#f8cecc;strokeColor=#b85450;" value="" target="Bm2-PUY5up5VaTDxlSB6-2" edge="1">
-
-
--<mxGeometry height="50" width="50" as="geometry" relative="1">
-
-<mxPoint y="221.5" x="645" as="sourcePoint"/>
-
-<mxPoint y="255" x="574.8461538461538" as="targetPoint"/>
-
-</mxGeometry>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-31" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" target="Bm2-PUY5up5VaTDxlSB6-10" edge="1">
-
-
--<mxGeometry height="50" width="50" as="geometry" relative="1">
-
-<mxPoint y="402.5" x="625" as="sourcePoint"/>
-
-<mxPoint y="332.5" x="584.8461538461538" as="targetPoint"/>
-
-</mxGeometry>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-33" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0;entryY=0.75;" value="" target="Bm2-PUY5up5VaTDxlSB6-4" edge="1">
-
-
--<mxGeometry height="50" width="50" as="geometry" relative="1">
-
-<mxPoint y="362.5" x="225" as="sourcePoint"/>
-
-<mxPoint y="392.5" x="235" as="targetPoint"/>
-
-</mxGeometry>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-36" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="<div align="left"><font size="1">&nbsp;</font><font size="1"><br></font></div>">
-
-<mxGeometry height="20" width="40" y="357.5" x="335" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-37" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0;entryY=0.25;" value="" edge="1">
-
-
--<mxGeometry height="50" width="50" as="geometry" relative="1">
-
-<mxPoint y="362.5" x="225" as="sourcePoint"/>
-
-<mxPoint y="372.5" x="345" as="targetPoint"/>
-
-</mxGeometry>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-38" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0;entryY=0.75;" value="" target="Bm2-PUY5up5VaTDxlSB6-24" edge="1">
-
-
--<mxGeometry height="50" width="50" as="geometry" relative="1">
-
-<mxPoint y="362.5" x="225" as="sourcePoint"/>
-
-<mxPoint y="302.5" x="345" as="targetPoint"/>
-
-</mxGeometry>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-39" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.905;entryY=0.25;entryPerimeter=0;" value="" target="Bm2-PUY5up5VaTDxlSB6-40" edge="1">
-
-
--<mxGeometry height="50" width="50" as="geometry" relative="1">
-
-<mxPoint y="402.5" x="625" as="sourcePoint"/>
-
-<mxPoint y="378.54999999999995" x="535" as="targetPoint"/>
-
-</mxGeometry>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-40" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="<br style="font-size: 12px">">
-
-<mxGeometry height="20" width="140" y="437.5" x="380" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-42" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.25;" value="" target="Bm2-PUY5up5VaTDxlSB6-8" edge="1">
-
-
--<mxGeometry height="50" width="50" as="geometry" relative="1">
-
-<mxPoint y="262.5" x="245" as="sourcePoint"/>
-
-<mxPoint y="261.7105263157895" x="345" as="targetPoint"/>
-
-</mxGeometry>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-43" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" value="Task Status<br>">
-
-<mxGeometry height="20" width="180" y="237.5" x="95" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-44" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" value="Due Date (Optional)<br>">
-
-<mxGeometry height="20" width="180" y="347.5" x="65" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-45" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" value="Task Title<br>">
-
-<mxGeometry height="20" width="180" y="207.5" x="605" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-46" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" value="Task Description (Optional)<br>">
-
-<mxGeometry height="20" width="180" y="377.5" x="595" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-47" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" value="New Task Button<br>">
-
-<mxGeometry height="20" width="180" y="600" x="555" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-50" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;" value="">
-
-<mxGeometry height="80" width="230" y="245.5" x="980" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-51" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="Grocery Store<br style="font-size: 18px;">">
-
-<mxGeometry height="20" width="170" y="265.5" x="1030" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-52" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=23;" value="X">
-
-<mxGeometry height="30" width="30" y="255.5" x="990" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-53" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="<div align="left"><font style="font-size: 10px">Today</font><br style="font-size: 10px"></div>">
-
-<mxGeometry height="20" width="40" y="295.5" x="990" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-54" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="<font style="font-size: 12px">Be sure to remember to ge...</font><br style="font-size: 12px">">
-
-<mxGeometry height="20" width="160" y="295.5" x="1040" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-55" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;" value="">
-
-<mxGeometry height="80" width="230" y="325.5" x="980" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-56" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="Call Mom<br style="font-size: 18px">">
-
-<mxGeometry height="20" width="170" y="345.5" x="1030" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-57" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="">
-
-<mxGeometry height="30" width="30" y="335.5" x="990" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-58" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="<font style="font-size: 12px">It's her birthday</font><br style="font-size: 12px">">
-
-<mxGeometry height="20" width="140" y="375.5" x="1040" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-59" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" value="">
-
-<mxGeometry height="80" width="230" y="405.5" x="980" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-60" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="Pay Water Bill<br style="font-size: 18px">">
-
-<mxGeometry height="20" width="170" y="425.5" x="1030" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-61" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="">
-
-<mxGeometry height="30" width="30" y="415.5" x="990" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-62" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;" value="">
-
-<mxGeometry height="30" width="230" y="485.5" x="980" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-63" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="Grocery Store<br style="font-size: 18px;">">
-
-<mxGeometry height="20" width="170" y="505.5" x="1030" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-64" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="">
-
-<mxGeometry height="20" width="30" y="495.5" x="990" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-65" parent="1" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" value="">
-
-<mxGeometry height="60" width="230" y="515.5" x="980" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-66" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;" value="New Task<br>">
-
-<mxGeometry height="40" width="190" y="525.5" x="1000" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-67" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="<div align="left"><font size="1">9 Dec</font></div>">
-
-<mxGeometry height="20" width="40" y="455.5" x="990" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-74" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="<div align="left"><font size="1">&nbsp;</font><font size="1"><br></font></div>">
-
-<mxGeometry height="20" width="40" y="375.5" x="990" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-78" parent="1" vertex="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="<br style="font-size: 12px">">
-
-<mxGeometry height="20" width="140" y="455.5" x="1035" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-85" parent="1" vertex="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=23;align=center;" value="">
-
-<mxGeometry height="310" width="210" y="260" x="990" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-86" parent="1" vertex="1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=23;" value="Text">
-
-<mxGeometry height="20" width="40" y="640" x="540" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-91" parent="1" vertex="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=23;align=center;" value="">
-
-<mxGeometry height="60" width="190" y="296" x="1000" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-92" parent="1" vertex="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=23;align=center;" value="">
-
-<mxGeometry height="60" width="190" y="365.5" x="1000" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-93" parent="1" vertex="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=23;align=center;" value="<br>">
-
-<mxGeometry height="60" width="190" y="435.5" x="1000" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-94" parent="1" vertex="1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=23;opacity=60;textOpacity=50;" value="Description<br>">
-
-<mxGeometry height="30" width="130" y="380.5" x="1030" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-95" parent="1" vertex="1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=23;opacity=0;textOpacity=50;" value="Due Date<br>">
-
-<mxGeometry height="30" width="110" y="452.5" x="1040" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-96" parent="1" vertex="1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=23;opacity=60;textOpacity=50;" value="Title<br>">
-
-<mxGeometry height="30" width="60" y="312.5" x="1065" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-97" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;" value="Confirm<br>">
-
-<mxGeometry height="40" width="190" y="515.5" x="1000" as="geometry"/>
-
-</mxCell>
-
-
--<mxCell id="Bm2-PUY5up5VaTDxlSB6-98" parent="1" vertex="1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=23;opacity=60;" value="New Task<br>">
-
-<mxGeometry height="30" width="120" y="266" x="1035" as="geometry"/>
-
-</mxCell>
-
-</root>
-
+<mxGraphModel grid="1" dx="994" dy="474" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-1" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry as="geometry" x="325" y="227.5" width="230" height="80" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-2" value="Grocery Store&lt;br style=&quot;font-size: 18px;&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="375" y="247.5" width="170" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-3" value="X" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=23;" vertex="1">
+            <mxGeometry as="geometry" x="335" y="237.5" width="30" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-4" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Today&lt;/font&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/div&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="335" y="277.5" width="40" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-5" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Be sure to remember to ge...&lt;/font&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="385" y="277.5" width="160" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-6" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry as="geometry" x="325" y="307.5" width="230" height="80" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-7" value="Call Mom&lt;br style=&quot;font-size: 18px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="375" y="327.5" width="170" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-8" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1">
+            <mxGeometry as="geometry" x="335" y="317.5" width="30" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-10" value="&lt;font style=&quot;font-size: 12px&quot;&gt;It's her birthday&lt;/font&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="385" y="357.5" width="140" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-11" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1">
+            <mxGeometry as="geometry" x="325" y="387.5" width="230" height="80" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-12" value="Pay Water Bill&lt;br style=&quot;font-size: 18px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="375" y="407.5" width="170" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-13" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1">
+            <mxGeometry as="geometry" x="335" y="397.5" width="30" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-16" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry as="geometry" x="325" y="467.5" width="230" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-17" value="Grocery Store&lt;br style=&quot;font-size: 18px;&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="375" y="487.5" width="170" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-18" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1">
+            <mxGeometry as="geometry" x="335" y="477.5" width="30" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-22" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1">
+            <mxGeometry as="geometry" x="325" y="497.5" width="230" height="60" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-23" value="New Task&lt;br&gt;" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1">
+            <mxGeometry as="geometry" x="345" y="507.5" width="190" height="40" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-24" value="&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;1&quot;&gt;9 Dec&lt;/font&gt;&lt;/div&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="335" y="437.5" width="40" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-28" value="" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" target="Bm2-PUY5up5VaTDxlSB6-23" source="Bm2-PUY5up5VaTDxlSB6-47">
+            <mxGeometry as="geometry" width="50" height="50" relative="1">
+                <mxPoint as="sourcePoint" x="615" y="592.5" />
+                <mxPoint as="targetPoint" x="375" y="582.5" />
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-29" value="" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" target="Bm2-PUY5up5VaTDxlSB6-3">
+            <mxGeometry as="geometry" width="50" height="50" relative="1">
+                <mxPoint as="sourcePoint" x="245" y="262.5" />
+                <mxPoint as="targetPoint" x="215" y="257.5" />
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-30" value="" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" target="Bm2-PUY5up5VaTDxlSB6-2">
+            <mxGeometry as="geometry" width="50" height="50" relative="1">
+                <mxPoint as="sourcePoint" x="645" y="221.5" />
+                <mxPoint as="targetPoint" x="574.8461538461538" y="255" />
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-31" value="" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" target="Bm2-PUY5up5VaTDxlSB6-10">
+            <mxGeometry as="geometry" width="50" height="50" relative="1">
+                <mxPoint as="sourcePoint" x="625" y="402.5" />
+                <mxPoint as="targetPoint" x="584.8461538461538" y="332.5" />
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-33" value="" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0;entryY=0.75;" edge="1" target="Bm2-PUY5up5VaTDxlSB6-4">
+            <mxGeometry as="geometry" width="50" height="50" relative="1">
+                <mxPoint as="sourcePoint" x="225" y="362.5" />
+                <mxPoint as="targetPoint" x="235" y="392.5" />
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-36" value="&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="335" y="357.5" width="40" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-37" value="" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0;entryY=0.25;" edge="1">
+            <mxGeometry as="geometry" width="50" height="50" relative="1">
+                <mxPoint as="sourcePoint" x="225" y="362.5" />
+                <mxPoint as="targetPoint" x="345" y="372.5" />
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-38" value="" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0;entryY=0.75;" edge="1" target="Bm2-PUY5up5VaTDxlSB6-24">
+            <mxGeometry as="geometry" width="50" height="50" relative="1">
+                <mxPoint as="sourcePoint" x="225" y="362.5" />
+                <mxPoint as="targetPoint" x="345" y="302.5" />
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-39" value="" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.905;entryY=0.25;entryPerimeter=0;" edge="1" target="Bm2-PUY5up5VaTDxlSB6-40">
+            <mxGeometry as="geometry" width="50" height="50" relative="1">
+                <mxPoint as="sourcePoint" x="625" y="402.5" />
+                <mxPoint as="targetPoint" x="535" y="378.54999999999995" />
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-40" value="&lt;br style=&quot;font-size: 12px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="380" y="437.5" width="140" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-42" value="" parent="1" style="endArrow=classic;html=1;fontSize=23;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.25;" edge="1" target="Bm2-PUY5up5VaTDxlSB6-8">
+            <mxGeometry as="geometry" width="50" height="50" relative="1">
+                <mxPoint as="sourcePoint" x="245" y="262.5" />
+                <mxPoint as="targetPoint" x="345" y="261.7105263157895" />
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-43" value="Task Status&lt;br&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1">
+            <mxGeometry as="geometry" x="95" y="237.5" width="180" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-44" value="Due Date (Optional)&lt;br&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1">
+            <mxGeometry as="geometry" x="65" y="347.5" width="180" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-45" value="Task Title&lt;br&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1">
+            <mxGeometry as="geometry" x="605" y="207.5" width="180" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-46" value="Task Description (Optional)&lt;br&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1">
+            <mxGeometry as="geometry" x="595" y="377.5" width="180" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-47" value="New Task Button&lt;br&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1">
+            <mxGeometry as="geometry" x="555" y="600" width="180" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-50" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry as="geometry" x="1380" y="242.5" width="230" height="80" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-51" value="Grocery Store&lt;br style=&quot;font-size: 18px;&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1430" y="262.5" width="170" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-52" value="X" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=23;" vertex="1">
+            <mxGeometry as="geometry" x="1390" y="252.5" width="30" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-53" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Today&lt;/font&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/div&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1390" y="292.5" width="40" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-54" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Be sure to remember to ge...&lt;/font&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1440" y="292.5" width="160" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-55" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry as="geometry" x="1380" y="322.5" width="230" height="80" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-56" value="Call Mom&lt;br style=&quot;font-size: 18px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1430" y="342.5" width="170" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-57" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1">
+            <mxGeometry as="geometry" x="1390" y="332.5" width="30" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-58" value="&lt;font style=&quot;font-size: 12px&quot;&gt;It's her birthday&lt;/font&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1440" y="372.5" width="140" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-59" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1">
+            <mxGeometry as="geometry" x="1380" y="402.5" width="230" height="80" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-60" value="Pay Water Bill&lt;br style=&quot;font-size: 18px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1430" y="422.5" width="170" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-61" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1">
+            <mxGeometry as="geometry" x="1390" y="412.5" width="30" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-62" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry as="geometry" x="1380" y="482.5" width="230" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-63" value="Grocery Store&lt;br style=&quot;font-size: 18px;&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1430" y="502.5" width="170" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-64" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1">
+            <mxGeometry as="geometry" x="1390" y="492.5" width="30" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-65" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1">
+            <mxGeometry as="geometry" x="1380" y="512.5" width="230" height="60" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-66" value="New Task&lt;br&gt;" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1">
+            <mxGeometry as="geometry" x="1400" y="522.5" width="190" height="40" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-67" value="&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;1&quot;&gt;9 Dec&lt;/font&gt;&lt;/div&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1390" y="452.5" width="40" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-74" value="&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1390" y="372.5" width="40" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-78" value="&lt;br style=&quot;font-size: 12px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1435" y="452.5" width="140" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-85" value="" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=23;align=center;" vertex="1">
+            <mxGeometry as="geometry" x="1390" y="257" width="210" height="310" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-91" value="" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=23;align=center;" vertex="1">
+            <mxGeometry as="geometry" x="1400" y="293" width="190" height="60" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-92" value="" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=23;align=center;" vertex="1">
+            <mxGeometry as="geometry" x="1400" y="362.5" width="190" height="60" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-93" value="&lt;br&gt;" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=23;align=center;" vertex="1">
+            <mxGeometry as="geometry" x="1400" y="432.5" width="190" height="60" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-94" value="Description&lt;br&gt;" parent="1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=23;opacity=60;textOpacity=50;" vertex="1">
+            <mxGeometry as="geometry" x="1430" y="377.5" width="130" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-95" value="Due Date&lt;br&gt;" parent="1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=23;opacity=0;textOpacity=50;" vertex="1">
+            <mxGeometry as="geometry" x="1440" y="449.5" width="110" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-96" value="Title&lt;br&gt;" parent="1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=23;opacity=60;textOpacity=50;" vertex="1">
+            <mxGeometry as="geometry" x="1465" y="309.5" width="60" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-97" value="Confirm&lt;br&gt;" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1">
+            <mxGeometry as="geometry" x="1400" y="512.5" width="190" height="40" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-98" value="New Task&lt;br&gt;" parent="1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=23;opacity=60;" vertex="1">
+            <mxGeometry as="geometry" x="1435" y="263" width="120" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-99" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry as="geometry" x="970" y="235.5" width="230" height="80" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-100" value="Grocery Store&lt;br style=&quot;font-size: 18px;&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1020" y="255.5" width="170" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-101" value="X" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=23;" vertex="1">
+            <mxGeometry as="geometry" x="980" y="245.5" width="30" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-102" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Today&lt;/font&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/div&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="980" y="285.5" width="40" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-103" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Be sure to remember to ge...&lt;/font&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1030" y="285.5" width="160" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-104" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry as="geometry" x="970" y="315.5" width="230" height="80" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-105" value="Call Mom&lt;br style=&quot;font-size: 18px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1020" y="335.5" width="170" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-106" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1">
+            <mxGeometry as="geometry" x="980" y="325.5" width="30" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-107" value="&lt;font style=&quot;font-size: 12px&quot;&gt;It's her birthday&lt;/font&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1030" y="365.5" width="140" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-108" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1">
+            <mxGeometry as="geometry" x="970" y="395.5" width="230" height="80" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-109" value="Pay Water Bill&lt;br style=&quot;font-size: 18px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1020" y="415.5" width="170" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-110" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1">
+            <mxGeometry as="geometry" x="980" y="405.5" width="30" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-111" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry as="geometry" x="970" y="475.5" width="230" height="30" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-112" value="Grocery Store&lt;br style=&quot;font-size: 18px;&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1020" y="495.5" width="170" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-113" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1">
+            <mxGeometry as="geometry" x="980" y="485.5" width="30" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-114" value="" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1">
+            <mxGeometry as="geometry" x="970" y="505.5" width="230" height="60" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-115" value="New Task&lt;br&gt;" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1">
+            <mxGeometry as="geometry" x="990" y="515.5" width="190" height="40" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-116" value="&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;1&quot;&gt;9 Dec&lt;/font&gt;&lt;/div&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="980" y="445.5" width="40" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-117" value="&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="980" y="365.5" width="40" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-118" value="&lt;br style=&quot;font-size: 12px&quot;&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1">
+            <mxGeometry as="geometry" x="1025" y="445.5" width="140" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-119" value="" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=23;align=center;" vertex="1">
+            <mxGeometry as="geometry" x="980" y="290" width="210" height="170" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-131" value="Due: Today&lt;br&gt;" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;opacity=0;align=left;verticalAlign=top;" vertex="1">
+            <mxGeometry as="geometry" x="985" y="404.5" width="120" height="60" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-132" value="&lt;span&gt;&lt;br&gt;Description: Be sure to remember to get stuff for the block party&lt;/span&gt;&lt;br&gt;" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;opacity=0;align=left;verticalAlign=top;" vertex="1">
+            <mxGeometry as="geometry" x="985" y="315.5" width="202" height="110" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-133" value="&lt;br&gt;" parent="1" style="text;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=15;html=1;" vertex="1">
+            <mxGeometry as="geometry" x="980" y="357.5" width="20" height="20" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-134" value="Title: Grocery Store&lt;br&gt;" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;opacity=0;align=left;verticalAlign=top;" vertex="1">
+            <mxGeometry as="geometry" x="985" y="298" width="195" height="60" />
+        </mxCell>
+        <mxCell id="Bm2-PUY5up5VaTDxlSB6-135" value="Completed: Today&lt;br&gt;" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;opacity=0;align=left;verticalAlign=top;" vertex="1">
+            <mxGeometry as="geometry" x="985" y="425.5" width="150" height="60" />
+        </mxCell>
+    </root>
 </mxGraphModel>
