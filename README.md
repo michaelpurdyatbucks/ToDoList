@@ -34,7 +34,8 @@ Tasks can be created by touching the New Task button, which brings up the New Ta
 
 ![New Task Screen](docs/NewTaskScreen.png?raw=true "New Task Screen")
 
-A title is the only required field for a task to be made.
+The User is given three input boxes, for title, description, and due date respectively.
+A **title is the only required field** for a task to be made.
 Upon task creation, the task is added to the task list.
 
 ```psudocode
