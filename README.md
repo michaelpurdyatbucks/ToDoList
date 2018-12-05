@@ -11,7 +11,13 @@ It aims to be simple, so the user is not distracted from whats important -
 
 ## Layout
 
-![Design](docs/ToDoList.png?raw=true "Design")
+### Main Screen
+
+![Main Screen](docs/MainScreen.png?raw=true "Main Screen")
+
+### New Task Screen
+
+![New Task Screen](docs/NewTaskScreen.png?raw=true "New Task Screen")
 
 ## Tasks
 
@@ -32,9 +38,9 @@ Upon task creation, the task is added to the task list.
 ```psudocode
 New Task button is touched
   Create a new Task
-  User enters a Title - REQUIRED
-  User enters a Due Date - OPTIONAL
-  User enters a Description - OPTIONAL
+  User enters a Title
+  User enters a Due Date
+  User enters a Description
   User confirms
     if the User provided a due date
       set the task's due date to the User input
