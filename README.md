@@ -6,7 +6,7 @@ CISC135 E59
 ## Overview
 
 _To Do List_ is an application that helps manage tasks that need to be completed.
-It aims to be simple, so the user is not distracted from whats important -
+It aims to be simple, so the User is not distracted from whats important -
 **getting stuff done**.
 
 ## Layout
@@ -32,7 +32,7 @@ This expands the task details.
 
 ## Tasks
 
-Tasks are why the user is here.
+Tasks are why the User is here.
 They are the main purpose of the application.
 A Task is made up of the following attributes:
 
@@ -62,7 +62,7 @@ New Task button is touched
     if the User provided a description
       set the new Task's description to the User input
 
-    if the user provided a title
+    if the User provided a title
       set the new Task's title to the User input
       add the new Task to the Task List
     else
@@ -72,8 +72,8 @@ New Task button is touched
 
 ### Viewing a Task
 
-While a task can be viewed on the main screen, there may be times where a user wants to see more about the task.
-This allows the user to view full descriptions in the case of truncated text.
+While a task can be viewed on the main screen, there may be times where a User wants to see more about the task.
+This allows the User to view full descriptions in the case of truncated text.
 
 ```psudocode
 User touches the View Task button
@@ -91,7 +91,7 @@ User touches the View Task button
 
 Tasks are completed by touching the Task Status checkbox.
 This changes the task date completed field to the current date.
-If the user wants to un-complete a task, the user touoch the Task Status checkbox again, which would remove the completed date field.
+If the User wants to un-complete a task, the User touoch the Task Status checkbox again, which would remove the completed date field.
 
 ```psudocode
 User touches the Task Status checkbox
