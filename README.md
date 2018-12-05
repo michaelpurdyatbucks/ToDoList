@@ -7,7 +7,7 @@ Like the _Criminal Intent_ app, ther* Leverage ViewFragments like in the _Crimin
 
 #### Main Screen
 A list of tasks
-
+![Design](docs/ToDoList.png?raw=true "Design")
 Basic layout
 ```
  Check Boxes for completed tasks
