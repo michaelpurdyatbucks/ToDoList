@@ -30,11 +30,11 @@ Tasks can be created, viewed, and completed.
 
 ### Creating a Task
 
-Tasks can be created by touching the New Task button.
+Tasks can be created by touching the New Task button, which brings up the New Task screen.
 
 ![New Task Screen](docs/NewTaskScreen.png?raw=true "New Task Screen")
 
-A Title is all that is required for a Task to be made.
+A title is the only required field for a task to be made.
 Upon task creation, the task is added to the task list.
 
 ```psudocode
@@ -60,7 +60,8 @@ New Task button is touched
 
 ### Viewing a Task
 
-Tasks can be viewed by touching a task
+Tasks can be viewed by touching a task.
+This brings up the View Task screen.
 
 ![Task View Screen](docs/TaskViewScreen.png?raw=true "Task View Screen")
 
