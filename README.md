@@ -9,26 +9,11 @@ _To Do List_ is an application that helps manage tasks that need to be completed
 It aims to be simple, so the User is not distracted from whats important -
 **getting stuff done**.
 
-## Layout
-
-### Main Screen
+## Main Screen
 
 This is where the User will spend the majority of their time in the application.
 This is the main Activity.
 ![Main Screen](docs/MainScreen.png?raw=true "Main Screen")
-
-### New Task Screen
-
-This is what the User is presented with when touching the New Task button.
-This is how a new task is created.
-![New Task Screen](docs/NewTaskScreen.png?raw=true "New Task Screen")
-
-### Task View Screen
-
-This is how the User is preseneted with when touching a task.
-This expands the task details.
-
-![Task View Screen](docs/TaskViewScreen.png?raw=true "Task View Screen")
 
 ## Tasks
 
@@ -45,7 +30,10 @@ Tasks can be created, viewed, and completed.
 
 ### Creating a Task
 
-Tasks are created by pressing the New Task button.
+Tasks can be created by touching the New Task button.
+
+![New Task Screen](docs/NewTaskScreen.png?raw=true "New Task Screen")
+
 A Title is all that is required for a Task to be made.
 Upon task creation, the task is added to the task list.
 
@@ -72,8 +60,12 @@ New Task button is touched
 
 ### Viewing a Task
 
-While a task can be viewed on the main screen, there may be times where a User wants to see more about the task.
-This allows the User to view full descriptions in the case of truncated text.
+Tasks can be viewed by touching a task
+
+![Task View Screen](docs/TaskViewScreen.png?raw=true "Task View Screen")
+
+This allows Users an exploded view of a specific task.
+This is particularly useful for viewing truncated text and for seeing a tasks completion date.
 
 ```psudocode
 User touches the View Task button
