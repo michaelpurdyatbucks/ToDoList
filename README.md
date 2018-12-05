@@ -25,12 +25,13 @@ It aims to be simple, so the user is not distracted from whats important -
 
 ## Tasks
 
-They are why the user is here.
+Tasks are why the user is here.
+They are the main purpose of the application.
 A Task is made up of the following attributes:
 
 * title - ___Required___
 * date completed
-* description 
+* description
 * date due
 
 ### Creating a Task
