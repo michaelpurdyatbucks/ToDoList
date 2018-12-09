@@ -1,13 +1,35 @@
 package tech.purdy.todolist;
 
 import java.util.Date;
+import java.util.UUID;
 
 public class Task
 {
+    private UUID mId;
     private String title;
     private String description;
     private Date dueDate;
     private Date completedDate;
+
+    public Task()
+    {
+        mId = UUID.randomUUID();
+    }
+
+    public UUID getId()
+    {
+        return mId;
+    }
+
+    public String getDueDateAsString()
+    {
+        return dueDate == null ? "" : dueDate.toString();
+    }
+
+    public String getCompletedDateAsString()
+    {
+        return completedDate == null ? "" : completedDate.toString();
+    }
 
     public String getTitle()
     {
