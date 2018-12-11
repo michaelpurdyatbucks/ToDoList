@@ -1,10 +1,9 @@
-package tech.purdy.todolist;
+package tech.purdy.todolist.task;
 
 import android.content.Context;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 import java.util.UUID;
 
 public class TaskLab

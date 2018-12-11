@@ -1,4 +1,4 @@
-package tech.purdy.todolist.fragments;
+package tech.purdy.todolist.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

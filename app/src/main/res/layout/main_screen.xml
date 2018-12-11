@@ -10,13 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight=".8"
-        android:name="tech.purdy.todolist.fragments.TaskListFragment"/>
+        android:name="tech.purdy.todolist.fragment.TaskListFragment"/>
 
     <fragment
         android:id="@+id/fragmentRight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight=".20"
-        android:name="tech.purdy.todolist.fragments.NewTaskButtonFragment"/>
+        android:name="tech.purdy.todolist.fragment.NewTaskButtonFragment"/>
 </LinearLayout>
 
