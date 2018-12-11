@@ -1,4 +1,4 @@
-package tech.purdy.todolist;
+package tech.purdy.todolist.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -14,6 +14,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.List;
+
+import tech.purdy.todolist.R;
+import tech.purdy.todolist.Task;
+import tech.purdy.todolist.TaskLab;
 
 public class TaskListFragment extends Fragment
 {

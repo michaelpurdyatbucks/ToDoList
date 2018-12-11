@@ -1,4 +1,4 @@
-package tech.purdy.todolist;
+package tech.purdy.todolist.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,7 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class NewTaskFragment extends Fragment
+import tech.purdy.todolist.R;
+
+public class NewTaskButtonFragment extends Fragment
 {
     private Button mNewTaskButton;
 

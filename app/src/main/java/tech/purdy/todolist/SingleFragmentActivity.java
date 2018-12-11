@@ -4,7 +4,8 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
-import android.view.ViewGroup;
+
+import tech.purdy.todolist.fragments.NewTaskButtonFragment;
 
 public abstract class SingleFragmentActivity extends AppCompatActivity
 {
@@ -22,7 +23,7 @@ public abstract class SingleFragmentActivity extends AppCompatActivity
         if (fragment == null)
         {
             fragment = createFragment();
-            Fragment buttonFragment = new NewTaskFragment();
+            Fragment buttonFragment = new NewTaskButtonFragment();
             fragmentManager.beginTransaction()
                            .add(R.id.fragment_container, fragment)
                            .commit();
