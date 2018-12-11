@@ -8,7 +8,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.List;
@@ -17,6 +19,7 @@ public class TaskListFragment extends Fragment
 {
     private RecyclerView mTaskRecyclerView;
     private TaskAdapter mTaskAdapter;
+    private Button mNewTaskButton;
 
     @Nullable
     @Override
@@ -84,18 +87,18 @@ public class TaskListFragment extends Fragment
             super(inflater.inflate(R.layout.fragment_task, parent, false));
 
             mTitleTextView = (TextView) itemView.findViewById(R.id.task_title);
-//            mDescriptionTextView = (TextView) itemView.findViewById(R.id.task_description);
-//            mDueDateTextView = (TextView) itemView.findViewById(R.id.task_duedate);
-//            mCheckBox = (CheckBox) itemView.findViewById(R.id.task_checkbox);
+            mDescriptionTextView = (TextView) itemView.findViewById(R.id.task_description);
+            mDueDateTextView = (TextView) itemView.findViewById(R.id.task_duedate);
+            mCheckBox = (CheckBox) itemView.findViewById(R.id.task_checkbox);
         }
 
         public void bind(Task task)
         {
             mTask = task;
             mTitleTextView.setText(mTask.getTitle());
-//            mDescriptionTextView.setText(mTask.getDescription());
-//            mDueDateTextView.setText(mTask.getDueDateAsString());
-//            mCheckBox.setChecked(mTask.isCompleted());
+            mDescriptionTextView.setText(mTask.getDescription());
+            mDueDateTextView.setText(mTask.getDueDateAsString());
+            mCheckBox.setChecked(mTask.isCompleted());
         }
     }
 }

@@ -27,9 +27,14 @@ public class TaskLab
         for (int i = 0; i < 100; i++)
         {
             Task task = new Task();
-            task.setTitle("Task #" + i);
+            task.setTitle("task " + i);
             mTasks.add(task);
         }
+    }
+
+    public void addTask(Task task)
+    {
+        mTasks.add(task);
     }
 
     public List<Task> getTasks()
