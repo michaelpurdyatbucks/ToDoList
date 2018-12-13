@@ -7,7 +7,9 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.UUID;
 
@@ -24,6 +26,7 @@ public class TaskDetailFragment extends Fragment
     private TextView mTaskDescription;
     private TextView mTaskDueDate;
     private TextView mTaskCompletedDate;
+    private Button mTaskDeleteButton;
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
@@ -37,12 +40,24 @@ public class TaskDetailFragment extends Fragment
         Task task = taskLab.getTask(mCurrentTaskUUID);
 
         mTaskTitle = (TextView) view.findViewById(R.id.task_title);
-
         mTaskDescription = (TextView) view.findViewById(R.id.task_description);
-
         mTaskDueDate = (TextView) view.findViewById(R.id.task_duedate);
-
         mTaskCompletedDate = (TextView) view.findViewById(R.id.task_completeddate);
+        mTaskDeleteButton = (Button) view.findViewById(R.id.task_delete);
+        mTaskDeleteButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                UUID mCurrentTaskUUID = MainActivity.getmCurrentTaskUUID();
+                TaskLab taskLab = TaskLab.get(getActivity());
+                taskLab.deleteTask(mCurrentTaskUUID);
+                Toast.makeText(getContext(), "Task deleted", Toast.LENGTH_SHORT).show();
+                ((MainActivity)getActivity()).setViewPager(0);
+            }
+        });
+
+
 
         if (task != null)
         {

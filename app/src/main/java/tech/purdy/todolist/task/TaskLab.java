@@ -46,4 +46,15 @@ public class TaskLab
         }
         return null;
     }
+
+    public void deleteTask(UUID id)
+    {
+        for (Task task : mTasks)
+        {
+            if(task.getId().equals(id))
+            {
+                mTasks.remove(task);
+            }
+        }
+    }
 }

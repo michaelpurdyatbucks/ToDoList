@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_weight=".25"
+        android:layout_weight=".2"
         >
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_weight=".25"
+        android:layout_weight=".2"
         >
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_weight=".25"
+        android:layout_weight=".2"
         >
         <TextView
             android:layout_width="wrap_content"
@@ -66,7 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_weight=".25"
+        android:layout_weight=".2"
         >
         <TextView
             android:layout_width="wrap_content"
@@ -81,4 +81,10 @@
             android:layout_weight=".8"
             />
     </LinearLayout>
+    <Button
+        android:id="@+id/task_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".2"
+        android:text="Delete Task"/>
 </LinearLayout>
