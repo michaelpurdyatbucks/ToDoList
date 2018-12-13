@@ -11,34 +11,48 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.List;
 
 import tech.purdy.todolist.R;
+import tech.purdy.todolist.activity.MainActivity;
 import tech.purdy.todolist.task.Task;
 import tech.purdy.todolist.task.TaskLab;
 
 public class TaskListFragment extends Fragment
 {
+    private static final String TAG = "TaskListFragment";
     private RecyclerView mTaskRecyclerView;
     private TaskAdapter mTaskAdapter;
-    private Button mNewTaskButton;
+    private Button mTaskCreationButton;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
     {
-        View view = inflater.inflate(R.layout.fragment_task_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_todo_list, container, false);
 
         mTaskRecyclerView = (RecyclerView) view.findViewById(R.id.task_recycler_view);
         mTaskRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
-        updateUI();
+        mTaskCreationButton = (Button) view.findViewById(R.id.new_task_button);
+        mTaskCreationButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Toast.makeText(getActivity(), "Clicked", Toast.LENGTH_LONG).show();
+                ((MainActivity)getActivity()).setViewPager(1);
+            }
+        });
+
+        update();
 
         return view;
     }
 
-    private void updateUI()
+    public void update()
     {
         TaskLab taskLab = TaskLab.get(getActivity());
         List<Task> tasks = taskLab.getTasks();
