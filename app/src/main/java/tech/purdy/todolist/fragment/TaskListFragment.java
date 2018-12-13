@@ -11,11 +11,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.List;
 
-import tech.purdy.todolist.Constants;
 import tech.purdy.todolist.R;
 import tech.purdy.todolist.activity.MainActivity;
 import tech.purdy.todolist.task.Task;

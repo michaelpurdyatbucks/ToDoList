@@ -23,12 +23,6 @@ public class TaskLab
     private TaskLab(Context context)
     {
         mTasks = new ArrayList<>();
-        for (int i = 0; i < 10; i++)
-        {
-            Task task = new Task();
-            task.setTitle("task " + i);
-            mTasks.add(task);
-        }
     }
 
     public void addTask(Task task)
