@@ -43,7 +43,17 @@ public class MainActivity extends AppCompatActivity
     public void setViewPager(int fragmentNumber)
     {
         SectionsStatePagerAdapter adapater = (SectionsStatePagerAdapter) mViewPager.getAdapter();
-        mSectionsStatePagerAdapter.updateFragments();
+        adapater.updateFragments();
         mViewPager.setCurrentItem(fragmentNumber);
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        if (mViewPager.getCurrentItem() != 0) {
+            mViewPager.setCurrentItem(mViewPager.getCurrentItem() - 1,false);
+        }else{
+            finish();
+        }
     }
 }
