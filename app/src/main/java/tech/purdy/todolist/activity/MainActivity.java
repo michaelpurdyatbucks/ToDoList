@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity
     public void onBackPressed()
     {
         if (mViewPager.getCurrentItem() != 0) {
-            mViewPager.setCurrentItem(lastActivity, true);
+            mViewPager.setCurrentItem(lastActivity, false);
             lastActivity = 0;
         }else{
             finish();

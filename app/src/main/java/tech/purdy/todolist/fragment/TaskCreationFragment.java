@@ -13,6 +13,8 @@ import android.widget.CompoundButton;
 import android.widget.DatePicker;
 import android.widget.EditText;
 
+import java.util.Calendar;
+
 import tech.purdy.todolist.R;
 import tech.purdy.todolist.activity.MainActivity;
 import tech.purdy.todolist.task.Task;
@@ -44,11 +46,19 @@ public class TaskCreationFragment extends Fragment
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked)
             {
-                mDueDateDatePicker.setEnabled(isChecked);
+                if (isChecked)
+                {
+                    mDueDateDatePicker.setVisibility(View.VISIBLE);
+                }
+                else
+                {
+                    mDueDateDatePicker.setVisibility(View.INVISIBLE);
+                }
             }
         });
 
         mDueDateDatePicker = (DatePicker) view.findViewById(R.id.task_creation_duedate);
+        mDueDateDatePicker.setVisibility(View.INVISIBLE);
 
         mConfirmButton = (Button) view.findViewById(R.id.task_creation_button);
         mConfirmButton.setOnClickListener(new View.OnClickListener()
@@ -59,6 +69,15 @@ public class TaskCreationFragment extends Fragment
                 TaskLab taskLab = TaskLab.get(getActivity());
                 Task task = new Task();
                 task.setTitle(mTitleEditText.getText().toString());
+
+                if (mDueDateCheckBox.isChecked())
+                {
+                    Calendar due = Calendar.getInstance();
+                    due.set(mDueDateDatePicker.getYear(), mDueDateDatePicker.getMonth(), mDueDateDatePicker.getDayOfMonth());
+                    task.setDueDate(due.getTime());
+                }
+
+                task.setDescription(mDescriptionEditText.getText().toString());
                 taskLab.addTask(task);
 
                 ((MainActivity)getActivity()).setViewPager(0);

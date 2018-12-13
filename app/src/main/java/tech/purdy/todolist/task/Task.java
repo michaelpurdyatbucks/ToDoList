@@ -23,7 +23,12 @@ public class Task
 
     public String getDueDateAsString()
     {
-        return dueDate == null ? "" : dueDate.toString();
+        String date = "";
+        if (dueDate != null)
+        {
+            date = String.format("%s-%s-%s", dueDate.getMonth() + 1, dueDate.getDay() + 1, dueDate.getYear()+90);
+        }
+        return date;
     }
 
     public String getCompletedDateAsString()
