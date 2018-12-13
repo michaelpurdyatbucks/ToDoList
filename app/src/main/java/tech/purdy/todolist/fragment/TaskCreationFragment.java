@@ -37,8 +37,10 @@ public class TaskCreationFragment extends Fragment
         Log.d(TAG, "onCreate: Started.");
 
         mTitleEditText = (EditText) view.findViewById(R.id.task_creation_title);
+        mTitleEditText.setText("");
 
         mDescriptionEditText = (EditText) view.findViewById(R.id.task_creation_description);
+        mDescriptionEditText.setText("");
 
         mDueDateCheckBox = (CheckBox) view.findViewById(R.id.task_creation_duedate_checkbox);
         mDueDateCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener()
