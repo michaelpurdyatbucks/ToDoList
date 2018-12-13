@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import java.util.List;
 
+import tech.purdy.todolist.Constants;
 import tech.purdy.todolist.R;
 import tech.purdy.todolist.activity.MainActivity;
 import tech.purdy.todolist.task.Task;
@@ -31,7 +32,7 @@ public class TaskListFragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
     {
-        View view = inflater.inflate(R.layout.fragment_todo_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_task_list, container, false);
 
         mTaskRecyclerView = (RecyclerView) view.findViewById(R.id.task_recycler_view);
         mTaskRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -42,7 +43,6 @@ public class TaskListFragment extends Fragment
             @Override
             public void onClick(View v)
             {
-                Toast.makeText(getActivity(), "Clicked", Toast.LENGTH_LONG).show();
                 ((MainActivity)getActivity()).setViewPager(1);
             }
         });
@@ -104,8 +104,14 @@ public class TaskListFragment extends Fragment
             super(inflater.inflate(R.layout.fragment_task, parent, false));
 
             mTitleTextView = (TextView) itemView.findViewById(R.id.task_title);
+            mTitleTextView.setOnClickListener(getOnclickListener());
+
             mDescriptionTextView = (TextView) itemView.findViewById(R.id.task_description);
+            mDescriptionTextView.setOnClickListener(getOnclickListener());
+
             mDueDateTextView = (TextView) itemView.findViewById(R.id.task_duedate);
+            mDueDateTextView.setOnClickListener(getOnclickListener());
+
             mCheckBox = (CheckBox) itemView.findViewById(R.id.task_checkbox);
         }
 
@@ -116,6 +122,19 @@ public class TaskListFragment extends Fragment
             mDescriptionTextView.setText(mTask.getDescription());
             mDueDateTextView.setText(mTask.getDueDateAsString());
             mCheckBox.setChecked(mTask.isCompleted());
+        }
+
+        public View.OnClickListener getOnclickListener()
+        {
+            return new View.OnClickListener()
+            {
+                @Override
+                public void onClick(View v)
+                {
+                    MainActivity.setmCurrentTaskUUID(mTask.getId());
+                    ((MainActivity)getActivity()).setViewPager(2);
+                }
+            };
         }
     }
 }
