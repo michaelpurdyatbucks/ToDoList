@@ -9,6 +9,14 @@ _To Do List_ is an application that helps manage tasks that need to be completed
 It aims to be simple, so the User is not distracted from whats important -
 **getting stuff done**.
 
+## Features
+Create tasks
+Display all tasks
+Delete tasks
+View individual task details
+Save all tasks to local storage on exit
+Load all tasks from local storage on startup
+
 ## Main Screen
 
 This is where the User will spend the majority of their time in the application.
