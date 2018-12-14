@@ -8,6 +8,7 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Calendar;
 import java.util.Date;
 
 import tech.purdy.todolist.R;
@@ -40,7 +41,7 @@ public class TaskHolder extends RecyclerView.ViewHolder
                 }
                 else
                 {
-                    mTask.setCompletedDate(new Date());
+                    mTask.setCompletedDate(Calendar.getInstance().toString());
                 }
             }
         });
@@ -51,7 +52,7 @@ public class TaskHolder extends RecyclerView.ViewHolder
         mTask = task;
         mTitleTextView.setText(mTask.getTitle());
         mDescriptionTextView.setText(mTask.getDescription());
-        mDueDateTextView.setText(mTask.getDueDateAsString());
+        mDueDateTextView.setText(mTask.getDueDate());
         mCheckBox.setChecked(mTask.isCompleted());
     }
 }

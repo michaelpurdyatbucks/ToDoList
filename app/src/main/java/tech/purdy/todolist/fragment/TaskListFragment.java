@@ -118,7 +118,7 @@ public class TaskListFragment extends Fragment
             mTask = task;
             mTitleTextView.setText(mTask.getTitle());
             mDescriptionTextView.setText(mTask.getDescription());
-            mDueDateTextView.setText(mTask.getDueDateAsString());
+            mDueDateTextView.setText(mTask.getDueDate());
             mCheckBox.setChecked(mTask.isCompleted());
         }
 

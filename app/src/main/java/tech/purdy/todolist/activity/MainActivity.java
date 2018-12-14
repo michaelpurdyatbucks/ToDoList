@@ -1,20 +1,31 @@
 package tech.purdy.todolist.activity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStreamReader;
 import java.util.UUID;
 
 import tech.purdy.todolist.R;
 import tech.purdy.todolist.fragment.TaskCreationFragment;
 import tech.purdy.todolist.fragment.TaskDetailFragment;
 import tech.purdy.todolist.fragment.TaskListFragment;
+import tech.purdy.todolist.task.Task;
+import tech.purdy.todolist.task.TaskLab;
+
+import static android.Manifest.permission_group.STORAGE;
 
 public class MainActivity extends AppCompatActivity
 {
     private static final String TAG = "MainActivity";
+    private static final String STORAGE = "tasks.json";
 
     private static UUID mCurrentTaskUUID;
     private int lastActivity = 0;
@@ -27,6 +38,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_todo_list);
         Log.d(TAG, "onCreate: Started.");
+        loadState();
 
         mSectionsStatePagerAdapter = new SectionsStatePagerAdapter(getSupportFragmentManager());
 
@@ -60,6 +72,49 @@ public class MainActivity extends AppCompatActivity
         }else{
             finish();
         }
+    }
+
+    @Override
+    protected void onStop()
+    {
+        super.onStop();
+        saveState();
+    }
+
+    private void saveState()
+    {
+        String jsonString = TaskLab.saveState();
+        if (jsonString.isEmpty())
+            return;
+        try {
+            FileOutputStream outputStream = openFileOutput(STORAGE, MODE_PRIVATE);
+            outputStream.write(jsonString.getBytes());
+            outputStream.close();
+        }
+        catch (Exception exception)
+        {
+            Log.e(TAG, "Failed to write tasks. " + exception.getMessage());
+        }
+    }
+
+    private void loadState()
+    {
+        TaskLab.get(this);
+        StringBuilder jsonData = new StringBuilder();
+        try {
+            FileInputStream fis = openFileInput(STORAGE);
+            InputStreamReader isr = new InputStreamReader(fis);
+            BufferedReader bufferedReader = new BufferedReader(isr);
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+                jsonData.append(line);
+            }
+        }
+        catch (Exception exception)
+        {
+            Log.e(TAG, "Failed to read tasks. " + exception.getMessage());
+        }
+        TaskLab.loadState(jsonData.toString());
     }
 
     public static void setmCurrentTaskUUID(UUID uuid)

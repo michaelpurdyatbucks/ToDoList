@@ -53,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight=".2"
-            android:text="Title"
+            android:text="Due Date"
             />
         <TextView
             android:id="@+id/task_duedate"
@@ -72,7 +72,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight=".2"
-            android:text="Description"
+            android:text="Completed Date"
             />
         <TextView
             android:id="@+id/task_completeddate"

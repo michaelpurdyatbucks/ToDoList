@@ -76,7 +76,7 @@ public class TaskCreationFragment extends Fragment
                 {
                     Calendar due = Calendar.getInstance();
                     due.set(mDueDateDatePicker.getYear(), mDueDateDatePicker.getMonth(), mDueDateDatePicker.getDayOfMonth());
-                    task.setDueDate(due.getTime());
+                    task.setDueDate(due.getTime().toString());
                 }
 
                 task.setDescription(mDescriptionEditText.getText().toString());

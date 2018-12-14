@@ -62,9 +62,9 @@ public class TaskDetailFragment extends Fragment
         if (task != null)
         {
             mTaskTitle.setText(task.getTitle());
-            mTaskDueDate.setText(task.getDueDateAsString());
+            mTaskDueDate.setText(task.getDueDate());
             mTaskDescription.setText(task.getDescription());
-            mTaskCompletedDate.setText(task.getCompletedDateAsString());
+            mTaskCompletedDate.setText(task.getCompletedDate());
         }
 
         return view;

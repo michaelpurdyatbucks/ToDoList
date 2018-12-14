@@ -8,8 +8,8 @@ public class Task
     private UUID mId;
     private String title;
     private String description;
-    private Date dueDate;
-    private Date completedDate;
+    private String dueDate;
+    private String completedDate;
 
     public Task()
     {
@@ -19,21 +19,6 @@ public class Task
     public UUID getId()
     {
         return mId;
-    }
-
-    public String getDueDateAsString()
-    {
-        String date = "";
-        if (dueDate != null)
-        {
-            date = String.format("%s-%s-%s", dueDate.getMonth() + 1, dueDate.getDay() + 1, dueDate.getYear()+90);
-        }
-        return date;
-    }
-
-    public String getCompletedDateAsString()
-    {
-        return completedDate == null ? "" : completedDate.toString();
     }
 
     public String getTitle()
@@ -56,28 +41,28 @@ public class Task
         this.description = description;
     }
 
-    public Date getDueDate()
+    public boolean isCompleted()
+    {
+        return getCompletedDate() == null ? false : true;
+    }
+
+    public String getDueDate()
     {
         return dueDate;
     }
 
-    public void setDueDate(Date dueDate)
+    public void setDueDate(String dueDate)
     {
         this.dueDate = dueDate;
     }
 
-    public Date getCompletedDate()
+    public String getCompletedDate()
     {
         return completedDate;
     }
 
-    public void setCompletedDate(Date completedDate)
+    public void setCompletedDate(String completedDate)
     {
         this.completedDate = completedDate;
-    }
-
-    public boolean isCompleted()
-    {
-        return getCompletedDate() == null ? false : true;
     }
 }
