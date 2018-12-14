@@ -1,6 +1,5 @@
 package tech.purdy.todolist.task;
 
-import android.content.Context;
 import android.util.Log;
 
 import org.json.JSONArray;

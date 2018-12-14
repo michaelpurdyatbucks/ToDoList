@@ -1,6 +1,5 @@
 package tech.purdy.todolist.task;
 
-import java.util.Date;
 import java.util.UUID;
 
 public class Task

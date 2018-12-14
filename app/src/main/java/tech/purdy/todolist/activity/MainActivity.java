@@ -1,13 +1,11 @@
 package tech.purdy.todolist.activity;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStreamReader;
@@ -17,10 +15,7 @@ import tech.purdy.todolist.R;
 import tech.purdy.todolist.fragment.TaskCreationFragment;
 import tech.purdy.todolist.fragment.TaskDetailFragment;
 import tech.purdy.todolist.fragment.TaskListFragment;
-import tech.purdy.todolist.task.Task;
 import tech.purdy.todolist.task.TaskLab;
-
-import static android.Manifest.permission_group.STORAGE;
 
 public class MainActivity extends AppCompatActivity
 {

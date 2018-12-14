@@ -7,8 +7,6 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import tech.purdy.todolist.R;
-
 public class TaskAdapter extends RecyclerView.Adapter<TaskHolder>
 {
     private List<Task> mTasks;
