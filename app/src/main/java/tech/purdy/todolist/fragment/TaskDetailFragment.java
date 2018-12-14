@@ -20,8 +20,8 @@ import tech.purdy.todolist.task.TaskLab;
 
 public class TaskDetailFragment extends Fragment
 {
-    public static final int LOCATION = 2;
     private static final String TAG = "TaskDetailActivity";
+
     private TextView mTaskTitle;
     private TextView mTaskDescription;
     private TextView mTaskDueDate;
@@ -36,13 +36,14 @@ public class TaskDetailFragment extends Fragment
         Log.d(TAG, "onCreate: Started.");
 
         UUID mCurrentTaskUUID = MainActivity.getmCurrentTaskUUID();
-        TaskLab taskLab = TaskLab.get(getActivity());
+        TaskLab taskLab = TaskLab.get();
         Task task = taskLab.getTask(mCurrentTaskUUID);
 
         mTaskTitle = (TextView) view.findViewById(R.id.task_title);
         mTaskDescription = (TextView) view.findViewById(R.id.task_description);
         mTaskDueDate = (TextView) view.findViewById(R.id.task_duedate);
         mTaskCompletedDate = (TextView) view.findViewById(R.id.task_completeddate);
+
         mTaskDeleteButton = (Button) view.findViewById(R.id.task_delete);
         mTaskDeleteButton.setOnClickListener(new View.OnClickListener()
         {
@@ -50,14 +51,12 @@ public class TaskDetailFragment extends Fragment
             public void onClick(View v)
             {
                 UUID mCurrentTaskUUID = MainActivity.getmCurrentTaskUUID();
-                TaskLab taskLab = TaskLab.get(getActivity());
+                TaskLab taskLab = TaskLab.get();
                 taskLab.deleteTask(mCurrentTaskUUID);
                 Toast.makeText(getContext(), "Task deleted", Toast.LENGTH_SHORT).show();
                 ((MainActivity)getActivity()).setViewPager(0);
             }
         });
-
-
 
         if (task != null)
         {

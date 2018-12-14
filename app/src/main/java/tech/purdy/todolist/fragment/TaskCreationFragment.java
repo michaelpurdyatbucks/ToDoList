@@ -13,7 +13,9 @@ import android.widget.CompoundButton;
 import android.widget.DatePicker;
 import android.widget.EditText;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 import tech.purdy.todolist.R;
 import tech.purdy.todolist.activity.MainActivity;
@@ -37,10 +39,8 @@ public class TaskCreationFragment extends Fragment
         Log.d(TAG, "onCreate: Started.");
 
         mTitleEditText = (EditText) view.findViewById(R.id.task_creation_title);
-        mTitleEditText.setText("");
 
         mDescriptionEditText = (EditText) view.findViewById(R.id.task_creation_description);
-        mDescriptionEditText.setText("");
 
         mDueDateCheckBox = (CheckBox) view.findViewById(R.id.task_creation_duedate_checkbox);
         mDueDateCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener()
@@ -68,15 +68,17 @@ public class TaskCreationFragment extends Fragment
             @Override
             public void onClick(View v)
             {
-                TaskLab taskLab = TaskLab.get(getActivity());
+                TaskLab taskLab = TaskLab.get();
                 Task task = new Task();
                 task.setTitle(mTitleEditText.getText().toString());
 
                 if (mDueDateCheckBox.isChecked())
                 {
-                    Calendar due = Calendar.getInstance();
-                    due.set(mDueDateDatePicker.getYear(), mDueDateDatePicker.getMonth(), mDueDateDatePicker.getDayOfMonth());
-                    task.setDueDate(due.getTime().toString());
+                    Calendar calendar = Calendar.getInstance();
+                    calendar.set(mDueDateDatePicker.getYear(), mDueDateDatePicker.getMonth(), mDueDateDatePicker.getDayOfMonth());
+                    Date date = calendar.getTime();
+                    SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM-dd-yyyy");
+                    task.setDueDate(simpleDateFormat.format(date));
                 }
 
                 task.setDescription(mDescriptionEditText.getText().toString());
@@ -87,5 +89,15 @@ public class TaskCreationFragment extends Fragment
         });
 
         return view;
+    }
+
+    @Override
+    public void onStop()
+    {
+        super.onStop();
+        mTitleEditText.setText("");
+        mDescriptionEditText.setText("");
+        mDueDateCheckBox.setChecked(false);
+        mDueDateDatePicker.setVisibility(View.INVISIBLE);
     }
 }

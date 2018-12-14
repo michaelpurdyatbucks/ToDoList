@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity
 
     private void loadState()
     {
-        TaskLab.get(this);
+        TaskLab.get();
         StringBuilder jsonData = new StringBuilder();
         try {
             FileInputStream fis = openFileInput(STORAGE);

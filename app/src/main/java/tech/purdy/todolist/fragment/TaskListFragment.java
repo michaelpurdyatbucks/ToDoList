@@ -10,8 +10,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.TextView;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 import tech.purdy.todolist.R;
@@ -22,6 +26,7 @@ import tech.purdy.todolist.task.TaskLab;
 public class TaskListFragment extends Fragment
 {
     private static final String TAG = "TaskListFragment";
+
     private RecyclerView mTaskRecyclerView;
     private TaskAdapter mTaskAdapter;
     private Button mTaskCreationButton;
@@ -52,7 +57,7 @@ public class TaskListFragment extends Fragment
 
     public void update()
     {
-        TaskLab taskLab = TaskLab.get(getActivity());
+        TaskLab taskLab = TaskLab.get();
         List<Task> tasks = taskLab.getTasks();
 
         mTaskAdapter = new TaskAdapter(tasks);
@@ -111,6 +116,24 @@ public class TaskListFragment extends Fragment
             mDueDateTextView.setOnClickListener(getOnclickListener());
 
             mCheckBox = (CheckBox) itemView.findViewById(R.id.task_checkbox);
+            mCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener()
+            {
+                @Override
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked)
+                {
+                    if (isChecked)
+                    {
+                        Calendar calendar = Calendar.getInstance();
+                        Date date = calendar.getTime();
+                        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM-dd-yyyy");
+                        mTask.setCompletedDate(simpleDateFormat.format(date));
+                    }
+                    else
+                    {
+                        mTask.setCompletedDate(null);
+                    }
+                }
+            });
         }
 
         public void bind(Task task)

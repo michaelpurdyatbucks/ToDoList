@@ -13,21 +13,20 @@ import java.util.UUID;
 public class TaskLab
 {
     private static final String TAG = "TaskLab";
-    private static final String STORAGE = "tasks.json";
 
     private static TaskLab sTaskLab;
     private List<Task> mTasks;
 
-    public static TaskLab get(Context context)
+    public static TaskLab get()
     {
         if (sTaskLab == null)
         {
-            sTaskLab = new TaskLab(context);
+            sTaskLab = new TaskLab();
         }
         return sTaskLab;
     }
 
-    private TaskLab(Context context)
+    private TaskLab()
     {
         mTasks = new ArrayList<>();
     }
